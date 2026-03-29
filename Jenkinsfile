@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/SanthoshRamachandiran/CI-CD-0.2.git'
+                git branch: 'main', url: 'https://github.com/SanthoshRamachandiran/CI-CD-Inegration.git'
             }
         }
 
